@@ -18,7 +18,7 @@ header{
     width: 25%;
     height: 53px;
     background-color: #DDDDDD;
-    
+    font-family: 'Montserrat', sans-serif;
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -29,6 +29,7 @@ header{
 .search h4{
    font-size: 24px;
    font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -44,6 +45,7 @@ header{
     color: white;
     font-size: 24px;
     font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .creat a{
@@ -60,6 +62,134 @@ nav{
     height: 30px;
     
 }
+
+
+            /* Aside */
+
+  .aside{
+    padding-left: 25px;
+    
+  }     
+  
+  .sideBar{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+.home{
+    width: 15%;
+    height: 53px;
+    background-color: #008EEA;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 53px;
+    justify-content: space-between;
+    color: #8E8E8E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.costumers{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 53px;
+    justify-content: space-between;
+    color: #8E8E8E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.shop{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 53px;
+    justify-content: space-between;
+    color: #8E8E8E;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.income{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 53px;
+    justify-content: space-between;
+    color: #8E8E8E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.promotes{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 53px;
+    justify-content: space-between;
+    color: #8E8E8E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+    /* Aside Help Bar */
+.helpBar{
+    padding-top: 260px;
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 134px;
+    gap: 15px;
+}
+
+.settings a{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #8E8E8E;
+}
+
+.help {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+
+}
+
+.help a{
+    color: #8E8E8E;
+}
+
+
+
+.logOut{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+
+}
+
+
+.logOut a{
+    color: #8E8E8E;
+}
+
+
 
 
 
