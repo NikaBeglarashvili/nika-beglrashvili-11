@@ -2,6 +2,7 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    display: grid;
 }
 /* header */
 
@@ -23,6 +24,7 @@ header{
     display: flex;
     align-items: center;
     color: #8E8E8E;
+    gap: 10px;
 }
 
 
@@ -191,5 +193,48 @@ nav{
 
 
 
+                /* MainBar */
 
 
+
+.mainbar{
+    display: grid;
+    justify-content: space-between;
+    margin-left: 360px;
+    
+    background-color: #F5F5F5;
+    
+    margin: 0 auto;
+    grid-template-columns: 299px 318px;
+    grid-template-rows: 334px 198px;
+    gap: 31px;
+
+
+/* sxvanairad ver chavsvi, vici ro arasworad weria dzalian :D */
+
+    margin-left: 360px;
+    margin-top: -650px;
+
+}
+
+
+
+
+
+/* bodishi mxolod am seqciis gastilva movaxerxe da movaswari :)  */
+
+.photo2{
+    grid-column-start: 3;
+}
+
+.photo3{
+    grid-column-start: 1;
+}
+
+.photo4{
+    grid-column-start: 2;
+}
+
+.photo5{
+    grid-column-start: 3;
+}
